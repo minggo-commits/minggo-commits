@@ -7,9 +7,8 @@ You can click the Preview link to take a look at your changes.
 👀 I’m interested in **Artificial Intelligence (AI)** and **Web Development**  
 🌱 I’m currently learning:  
 - Machine Learning   
-- Building scalable web applications with Python (Django/Flask) and JavaScript (React/Vue.js)  
-- Cloud platforms like AWS, Heroku, and Render for deployment  
-
+- Building scalable web applications with Python (Django/Flask) 
+ 
 💞️ I’m looking to collaborate on:  
 - Open-source projects related to AI, machine learning, or web development  
 - Building tools or applications that leverage AI for creative purposes (e.g., content generation, automation, etc.)  
