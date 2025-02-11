@@ -16,18 +16,23 @@ I love solving problems with technology, especially in **Machine Learning** and 
 ---
 
 ### 📊 GitHub Stats & Streak 🔥  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=minggo-commits&show_icons=true&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=minggo-commits&theme=radical&hide_border=true)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=minggo-commits&show_icons=true&theme=radical)  
 
 ---
 
-### 🎮 Mini AI Games  
-🤖 **Guess the Number**  
-> Think of a number between 1-100, and I (AI) will try to guess it!  
-[![Play Now](https://img.shields.io/badge/▶️%20Play%20Now-Game-green?style=for-the-badge)](https://your-ai-game-link.com)  
+### 📊 Contribution Graph  
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=minggo-commits&theme=radical)  
 
-🧠 **Tic-Tac-Toe AI**  
-> Can you beat my unbeatable Tic-Tac-Toe AI?  
-[![Try It](https://img.shields.io/badge/⚡%20Challenge%20Me-Tic%20Tac%20Toe-blue?style=for-the-badge)](https://your-tic-tac-toe-link.com)  
+---
+
+### 🧠 AI & Tech Wisdom  
+> ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)  
+
+---
+
+### 😆 Random Dev Meme  
+![Dev Meme](https://random-memer.herokuapp.com/)  
 
 ---
 
