@@ -17,7 +17,7 @@ Currently, I'm diving deep into **Django** to build powerful backend application
 ---
 
 ### 📌 Featured Projects 🚀  
-📂 **Aksara Lontara Dataset** - Dataset aksara Lontara untuk pengenalan huruf.  
+📂 **Aksara Lontara Dataset** - Lontara Makassar Handwritten Dataset.  
 🔗 [View on Kaggle](https://www.kaggle.com/datasets/arsan5623/aksara-lontara)  
 
 ---
