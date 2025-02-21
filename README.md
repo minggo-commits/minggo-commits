@@ -3,13 +3,13 @@
 🚀 **AI & Web Enthusiast** | 🖥️ **Django Lovers** | 🤖 **Machine Learning Explorer**  
 
 I love solving problems with technology, especially in **Machine Learning** and **Web Development**.  
-Currently, I'm diving deep into **Django** to build powerful backend applications.  
+Currently, I'm diving deep into **Django** and **Flask** to build powerful backend applications.  
 
 ---
 
 ### 🛠️ Tech Stack 🚀  
 🔹 **Languages**: Python 🐍  
-🔹 **Backend**: Django 🎯, FastAPI ⚡  
+🔹 **Backend**: Django 🎯, FastAPI ⚡, Flask 🎉  
 🔹 **Frontend**: HTML 📄, CSS 🎨  
 🔹 **AI/ML**: TensorFlow 🔥, OpenCV 📷  
 🔹 **Databases**: MySQL 🛢️  
