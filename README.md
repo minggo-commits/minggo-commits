@@ -1,6 +1,6 @@
 ### Hi there, I'm Muh. Arsan Akbar! 👋  
 
-🚀 **AI & Web Enthusiast** | 🖥️ **Django Lovers** | 🤖 **Machine Learning Explorer**  
+🚀 **AI & Web Enthusiast** | 🤖 **Machine Learning Explorer**  
 
 I love solving problems with technology, especially in **Machine Learning** and **Web Development**.  
 Currently, I'm diving deep into **Django** and **Flask** to build powerful backend applications.  
