@@ -1,7 +1,7 @@
 # Hi there, I'm Minggo! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Machine+Learning+Engineer;Data+Science+Enthusiast;Python+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Aspiring+Machine+Learning+Engineer" alt="Typing SVG" />
 </div>
 
 ---
