@@ -47,9 +47,7 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=minggo-commits&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.vercel.app?user=minggo-commits&theme=tokyonight&hide_border=true" alt="minggo-commits" />
-</div>
+
 
 ---
 
