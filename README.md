@@ -17,7 +17,7 @@
 
 ---
 
-## 🛠️ Tech Arsenal
+## 🛠️ Tech 
 
 ### **Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -61,14 +61,6 @@
 
 ---
 
-## 💭 Daily Inspiration
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
-</div>
-
----
-
 ## 🤝 Let's Connect
 
 <div align="center">
@@ -83,6 +75,4 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=minggo-commits&style=flat-square&color=58A6FF" alt="Profile Views"/>
-  
-  **"Turning data into insights, one commit at a time"** 🚀
 </div>
