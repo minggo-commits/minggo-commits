@@ -1,4 +1,4 @@
-# Hi there, I'm Minggo! 👋
+# Hi there, I'm Minggo! 
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Aspiring+Machine+Learning+Engineer" alt="Typing SVG" />
@@ -6,18 +6,18 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 **ML Engineer** passionate about building intelligent systems and turning data into insights. I love creating end-to-end ML solutions and exploring the intersection of technology and real-world problems.
 
-- 🔬 Currently working on **ML/AI projects** and **data science solutions**
-- 🌱 Learning advanced **deep learning** and **MLOps** techniques  
-- 🎯 Focus: **Machine Learning**, **Data Analytics**, and **Web Applications**
-- 📊 Interests: **NLP**, **Computer Vision**, and **Predictive Analytics**
+- Currently working on **ML/AI projects** and **data science solutions**
+- Learning advanced **deep learning** and **MLOps** techniques  
+- Focus: **Machine Learning** and **Web Applications**
+- Interests: **NLP**, **Computer Vision**, and **Predictive Analytics**
 
 ---
 
-## 🛠️ Tech 
+## Tech 
 
 ### **Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -40,7 +40,7 @@
 
 ---
 
-## 📈 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=minggo-commits&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
@@ -51,7 +51,7 @@
 
 ---
 
-## 🏆 Featured Projects
+## Featured Projects
 
 <div align="center">
   
@@ -61,7 +61,7 @@
 
 ---
 
-## 🤝 Let's Connect
+## Let's Connect
 
 <div align="center">
   
