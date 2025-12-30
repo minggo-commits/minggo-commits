@@ -6,7 +6,7 @@
 </details> -->
 
 <details>
-  <summary>▶ Commit</summary>
+  <summary>Commit Graph</summary>
   <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contrib Half Year" width="100%" />
 </details>
 
