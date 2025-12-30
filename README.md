@@ -1,9 +1,9 @@
 <div align="center">
 
-<details open>
+<!-- <details open>
   <summary>▼ Full year calendar</summary>
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contrib Full Year" width="100%" />
-</details>
+</details> -->
 
 <details>
   <summary>▶ Half year calendar</summary>
