@@ -6,7 +6,7 @@
 </details> -->
 
 <details>
-  <summary>▶ Half year calendar</summary>
+  <summary>▶ Commit</summary>
   <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contrib Half Year" width="100%" />
 </details>
 
