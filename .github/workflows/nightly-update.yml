@@ -17,7 +17,7 @@ jobs:
           script: |
             const { data: events } = await github.rest.activity.listEventsForAuthenticatedUser({
               username: context.repo.owner,
-              per_page: 30
+              per_page: 50
             });
 
             // Filter aktivitas malam (18:00 - 06:00 UTC+8)
@@ -29,27 +29,41 @@ jobs:
 
             let activityText = nightActivities.length > 0 
               ? nightActivities.map(event => {
-                  const type = event.type.replace('Event', '').replace('Push', '🚀 Push').replace('Create', '✨ Create').replace('PullRequest', '🔧 PR');
+                  const type = event.type.replace('Event', '')
+                    .replace('Push', '🚀 Push')
+                    .replace('Create', '✨ Create')
+                    .replace('PullRequest', '🔧 PR')
+                    .replace('Watch', '⭐ Starred')
+                    .replace('Delete', '🗑️ Deleted');
+                  
                   const isPublic = event.public;
-                  const repo = isPublic 
-                    ? `[${event.repo.name}](https://github.com/${event.repo.name})` 
+                  const repoName = event.repo.name;
+                  const repoLink = isPublic 
+                    ? `[${repoName}](https://github.com/${repoName})` 
                     : '`🔒 Private Repository`';
-                  const time = new Date(event.created_at).toLocaleTimeString('en-GB', { timeZone: 'Asia/Makassar', hour: '2-digit', minute: '2-digit' });
-                  return `- **${type}** di ${repo} (\`${time}\`)`;
-                }).join('\n')
-              : "Belum ada aktivitas malam ini. Waktunya istirahat! 😴";
+                  
+                  const time = new Date(event.created_at).toLocaleTimeString('en-GB', { 
+                    timeZone: 'Asia/Makassar', 
+                    hour: '2-digit', 
+                    minute: '2-digit' 
+                  });
+                  
+                  return `> **${type}** di ${repoLink} — \`${time}\``;
+                }).join('\n\n')
+              : "> *Belum ada aktivitas malam ini. Waktunya istirahat! 😴*";
 
             const fs = require('fs');
             const readmePath = 'README.md';
-            let readme = fs.readFileSync(readmePath, 'utf8');
+            const readme = fs.readFileSync(readmePath, 'utf8');
+            
             const startTag = '<!-- START_SECTION:activity -->';
             const endTag = '<!-- END_SECTION:activity -->';
-            const regex = new RegExp(`${startTag}[\\\\s\\\\S]*${endTag}`);
-            const newContent = `${startTag}\\n${activityText}\\n${endTag}`;
             
-            // Re-read file to ensure we have latest and avoid regex issues
-            const updatedReadme = readme.replace(/<!-- START_SECTION:activity -->[\s\S]*<!-- END_SECTION:activity -->/, newContent);
-            fs.writeFileSync(readmePath, updatedReadme);
+            const contentRegex = new RegExp(`${startTag}[\\s\\S]*${endTag}`);
+            const updatedContent = `${startTag}\n${activityText}\n${endTag}`;
+            
+            const newReadme = readme.replace(contentRegex, updatedContent);
+            fs.writeFileSync(readmePath, newReadme);
 
       - name: Commit and Push
         run: |
