@@ -1,0 +1,60 @@
+name: Nightly Activity Update
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Menjalankan setiap jam
+  workflow_dispatch: # Memungkinkan update manual
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update Activity
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: events } = await github.rest.activity.listEventsForAuthenticatedUser({
+              username: context.repo.owner,
+              per_page: 30
+            });
+
+            // Filter aktivitas malam (18:00 - 06:00 UTC+8)
+            const nightActivities = events.filter(event => {
+              const date = new Date(event.created_at);
+              const hour = (date.getUTCHours() + 8) % 24;
+              return hour >= 18 || hour <= 6;
+            }).slice(0, 5);
+
+            let activityText = nightActivities.length > 0 
+              ? nightActivities.map(event => {
+                  const type = event.type.replace('Event', '').replace('Push', '🚀 Push').replace('Create', '✨ Create').replace('PullRequest', '🔧 PR');
+                  const isPublic = event.public;
+                  const repo = isPublic 
+                    ? `[${event.repo.name}](https://github.com/${event.repo.name})` 
+                    : '`🔒 Private Repository`';
+                  const time = new Date(event.created_at).toLocaleTimeString('en-GB', { timeZone: 'Asia/Makassar', hour: '2-digit', minute: '2-digit' });
+                  return `- **${type}** di ${repo} (\`${time}\`)`;
+                }).join('\n')
+              : "Belum ada aktivitas malam ini. Waktunya istirahat! 😴";
+
+            const fs = require('fs');
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+            const startTag = '<!-- START_SECTION:activity -->';
+            const endTag = '<!-- END_SECTION:activity -->';
+            const regex = new RegExp(`${startTag}[\\\\s\\\\S]*${endTag}`);
+            const newContent = `${startTag}\\n${activityText}\\n${endTag}`;
+            
+            // Re-read file to ensure we have latest and avoid regex issues
+            const updatedReadme = readme.replace(/<!-- START_SECTION:activity -->[\s\S]*<!-- END_SECTION:activity -->/, newContent);
+            fs.writeFileSync(readmePath, updatedReadme);
+
+      - name: Commit and Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "docs: update nightly activity" || exit 0
+          git push

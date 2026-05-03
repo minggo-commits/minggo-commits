@@ -1,6 +1,13 @@
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contrib Half Year" width="100%" />
+<img src="./ngoding-pas-malam.svg" alt="Ngoding pas malam" width="100%" />
+
+<br/>
+
+### 🌙 Jurnal Ngoding Malam Ini
+<!-- START_SECTION:activity -->
+Belum ada aktivitas malam ini. Waktunya istirahat! 😴
+<!-- END_SECTION:activity -->
 
 <br/>
 

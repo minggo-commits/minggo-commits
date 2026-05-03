@@ -1,0 +1,30 @@
+<svg width="800" height="150" viewBox="0 0 800 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 32px;
+      fill: #c9d1d9;
+    }
+    .cursor {
+      fill: #58a6ff;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    
+    .container {
+      animation: fadeIn 1.5s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <rect width="800" height="150" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  
+  <g class="container">
+    <text x="50" y="85" class="text">
+      <tspan fill="#8b949e">$ </tspan>Ngoding pas malam<tspan class="cursor">_</tspan>
+    </text>
+  </g>
+</svg>
