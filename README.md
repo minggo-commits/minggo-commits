@@ -5,11 +5,17 @@
 <br/>
 
 ### 🌙 Jurnal Ngoding Malam Ini
-<!-- START_SECTION:activity -->\n- **🚀 Push** di [minggo-commits/minggo-commits](https://github.com/minggo-commits/minggo-commits) (`23:54`)
-- **Watch** di [AzisSyam/custom-rag](https://github.com/AzisSyam/custom-rag) (`21:32`)
-- **Delete** di [minggo-commits/prompt-labs](https://github.com/minggo-commits/prompt-labs) (`22:00`)
-- **Delete** di [minggo-commits/prompt-labs](https://github.com/minggo-commits/prompt-labs) (`21:59`)
-- **🚀 Push** di [minggo-commits/prompt-labs](https://github.com/minggo-commits/prompt-labs) (`21:56`)\n<!-- END_SECTION:activity -->
+<!-- START_SECTION:activity -->
+> **🚀 Push** di [minggo-commits/minggo-commits](https://github.com/minggo-commits/minggo-commits) — `23:58`
+
+> **🚀 Push** di [minggo-commits/minggo-commits](https://github.com/minggo-commits/minggo-commits) — `23:54`
+
+> **⭐ Starred** di [AzisSyam/custom-rag](https://github.com/AzisSyam/custom-rag) — `21:32`
+
+> **🗑️ Deleted** di [minggo-commits/prompt-labs](https://github.com/minggo-commits/prompt-labs) — `22:00`
+
+> **🗑️ Deleted** di [minggo-commits/prompt-labs](https://github.com/minggo-commits/prompt-labs) — `21:59`
+<!-- END_SECTION:activity -->
 
 <br/>
 
